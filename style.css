@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap');
+
+* {
+    box-sizing: border-box; 
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+  }
+ 
+  body{
+    font-family: 'Nunito Sans', sans-serif;
+  }
+
+  .navbar {
+    height: 80px;
+    font-size: 1.6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+  }
+
+  .navbar__container {
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    z-index: 1;
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 50px;
+  }
+
+  #navbar__logo {
+    background-image: linear-gradient(to right top, 
+    #b7b7b6, #b3b9b0, #a6bdb2, #95c0bc, #86c2cd, #79c0d8,
+     #71bce3, #73b7ed, #68b0f2, #60a8f6, #5da0f9, #5f97fb);
+    display: flex;
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    align-items: center;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 4rem;
+    font-weight: 500;
+  }
+
+  #navbar__img{
+    width: 55px;
+    display: flex;;
+    margin-top: 0;
+    margin-left:  1px;
+  }
+  .navbar__menu {
+    display: flex;
+    align-items: center;
+    list-style: none;
+  }
+
+  .navbar__item {
+    height: 70px; 
+  }
+  
+  .navbar__links {
+    color:#131313;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 115px;
+    text-decoration: none;
+    height: 100%;
+    transition: all 0.3s ease;
+    
+
+  }
+
+ 
+  .navbar__links:hover {
+    color: #3f3a95;
+    background-color: #131313;
+    transition: all 0.3s ease;
+  }
+
+  @media screen and (max-width: 960px) {
+    .navbar__container {
+      display: flex;
+      justify-content: space-between;
+      height: 80px;
+      z-index: 1;
+      width: 100%;
+      max-width: 1300px;
+      padding: 0;
+    }
+    .navbar__menu {
+        display: grid;
+        grid-template-columns: auto;
+        margin: 0;
+        width: 100%;
+        position: absolute;
+        top: -1000px;
+        opacity: 1;
+        transition: all 0.5s ease;
+        z-index: -1;
+        
+      }
+    
+  .navbar__menu.active {
+    background: #131313;
+    top: 100%;
+    opacity: 1;
+    transition: all 0.5s ease;
+    z-index: 99;
+    height: 60vh;
+    font-size: 2.7rem;
+  }
+
+  #navbar__logo {
+    padding-left: 25px;
+  }
+
+  .navbar__toggle .bar {
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    transition: all 0.3s ease-in-out;
+    background: #fff;
+  }
+
+  .navbar__item {
+    width: 100%;
+  }
+
+  .navbar__links {
+    text-align: center;
+    padding: 2rem;
+    width: 100%;
+    display: table;
+  }
+  .navbar__toggle .bar {
+    display: block;
+    cursor: pointer;
+  }
+
+  #mobile-menu.is-active .bar:nth-child(2) {
+    opacity: 0;
+  }
+
+  #mobile-menu.is-active .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+  }
+
+  #mobile-menu.is-active .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+  }
+}
