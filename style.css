@@ -75,15 +75,23 @@
     text-decoration: none;
     height: 100%;
     transition: all 0.3s ease;
-    
 
   }
 
- 
   .navbar__links:hover {
     color: #3f3a95;
     background-color: #131313;
     transition: all 0.3s ease;
+  }
+
+  .grid {
+    margin: 0 auto;
+    display: grid;
+    max-width: 780px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-auto-rows: 180px;
+    grid-gap: 20px;
+    padding-bottom: 70px;
   }
 
   @media screen and (max-width: 960px) {
