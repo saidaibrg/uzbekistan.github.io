@@ -1,7 +1,8 @@
-    baguetteBox.run('.grid', {
+const baguetteBox = require('baguettebox.js');
+baguetteBox.run('.gallery', {
     captions: true,
-    buttons: 'auto',
-    animation: 'fadeIn'
-});
+    fullScreen: false,
+    buttons: 'auto'
 
+})
 
