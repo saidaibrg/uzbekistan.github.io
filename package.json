@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/saidaibrg/uzbekistan_sites/issues"
   },
-  "homepage": "https://github.com/saidaibrg/uzbekistan_sites#readme"
+  "homepage": "https://github.com/saidaibrg/uzbekistan_sites#readme",
+  "dependencies": {
+    "baguettebox.js": "^1.11.1"
+  }
 }
