@@ -1,0 +1,19 @@
+{
+  "name": "uzbekistan_sites",
+  "version": "1.0.0",
+  "description": "Gallery of the most prominent sites and nature objects of Uzbekistan",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saidaibrg/uzbekistan_sites.git"
+  },
+  "author": "Saida",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/saidaibrg/uzbekistan_sites/issues"
+  },
+  "homepage": "https://github.com/saidaibrg/uzbekistan_sites#readme"
+}

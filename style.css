@@ -86,14 +86,17 @@
       
 
   .grid {
-    margin: 0 auto;
     display: grid;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 8%;
+    margin-right: 8%;
     padding-top: 10px;
     padding-bottom: 70px;
     max-width: 1080px;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    grid-gap: 140px;
-    grid-auto-rows: 180px;
+    grid-gap: 180px;
+    grid-auto-rows: 130px;
   }
 
   .grid .item {
@@ -104,7 +107,7 @@
     filter: grayscale(40%);
   }
 
-  .gallery .item:hover {
+  .grid .item:hover {
     filter: none;
     transition: 0.3s ease-out;
     transform: scale(1.06);
