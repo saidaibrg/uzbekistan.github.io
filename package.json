@@ -7,9 +7,10 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
-    "type": "module",
+    "type": "git",
     "url": "git+https://github.com/saidaibrg/uzbekistan_sites.git"
   },
+  "type": "module",
   "author": "Saida",
   "license": "ISC",
   "bugs": {
