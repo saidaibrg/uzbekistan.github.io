@@ -1,22 +1,20 @@
 from bs4 import BeautifulSoup
 import requests
 
-#RECEIVING END
-with open('index.html') as html_file:
-    soup_receive = BeautifulSoup(html_file,"html.parser")
-
-images=soup_receive.find_all("a", {"class": "item"})
-for image in images:
-    print(image["data-caption"])
-
 
 #SENDING END
-source_tashkent=requests.get('https://en.wikipedia.org/wiki/Tashkent').text
-soup=BeautifulSoup(source_tashkent, 'lxml')
+source_tash=requests.get('https://en.wikipedia.org/wiki/Tashkent').text
+soup_tash=BeautifulSoup(source_tash, 'lxml')
 
-lst=soup.find_all('ul')
-descriptions=lst[5]
-#print(descriptions.text)
+lst1=soup_tash.find_all('ul')
+sights_tash=lst1[5]
+sights_tash_list=sights_tash.findChildren('li',recrusive=False)
+for each_sight_tash in sights_tash_list:
+    print(each_sight_tash.text)
+    print("\n\n\n\n")
+
+
+#print(sights_tash.text)
 
 #The full descriptions of the Eastern Tashkent monuments
 
