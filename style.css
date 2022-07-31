@@ -34,7 +34,7 @@
     width: 100%;
     max-width: 1300px;
     margin: 0 auto;
-    padding: 0 50px;
+    padding: 0 5px;
    
     
   }
@@ -58,9 +58,10 @@
 
   #navbar__img{
     width: 55px;
-    display: flex;;
+    display: flex;
+    align-items: center;
     margin-top: 0;
-    margin-left:  1px;
+    margin-left:  0px;
   }
 
   .navbar__menu {
