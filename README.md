@@ -7,7 +7,7 @@ Created utilizing HTML/CSS/JavaScript, baguetteBox.js package, Beauitiful Soup l
 
 ### Video Demo
 Here's a demo of the site:
-<img src='assets/walkthrough.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='assets/demo.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 ### Possible areas for contribution:
 The list of sights does not include everything that Uzbekistan has to offer, so contributions would be really appreciated!  

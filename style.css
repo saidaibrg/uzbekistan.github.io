@@ -22,8 +22,6 @@
     background-color:rgb(255, 255, 255);opacity:0.9;
     top: 0;
     z-index: 999;
-    
-   
   }
 
   .navbar__container {
@@ -34,9 +32,7 @@
     width: 100%;
     max-width: 1300px;
     margin: 0 auto;
-    padding: 0 5px;
-   
-    
+    padding: 0 5px;  
   }
 
   #navbar__logo {
