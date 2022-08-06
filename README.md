@@ -1,6 +1,6 @@
 # The Most Prominent Sights of Uzbekistan 
 ### Purpose and Inspiration:
-Uzbekistan is a little-known yet beautiful country in Central Asia. It went through the invasions of Alexander the Great, Muslim Arabs, Gengis Khan, Russian Empire, and its architecture exhibits incredible variety that evolved over the years of changing culture and traditions. This project showcases the most eye-catching sights of Uzbekistan, and was initially made to offer more convenience for Uzbekistani people to showcase our home place for people from other countries. 
+Uzbekistan is a little-known yet beautiful country in Central Asia. It went through the invasions of Alexander the Great, Muslim Arabs, Gengis Khan, Russian Empire, and its architecture exhibits incredible variety that evolved over the years of changing culture and traditions. This project showcases the most eye-catching sights of Uzbekistan, and was initially made to offer more convenience for Uzbekistani people to showcase our home to people from other countries.
  
 ### Technical Description:
 Created utilizing HTML/CSS/JavaScript, baguetteBox.js package, Beauitiful Soup library, the website presents an interactive gallery with clickable sights and descriptions which can be sorted based on their location. 
