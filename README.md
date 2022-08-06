@@ -1,8 +1,11 @@
-# The Most Beautiful Sites of Uzbekistan 
-### Purpose and Description:
-##### A little-known yet beautiful country in Central Asia has a lot to offer, and this project was made for more convenience and ease of showcasing my home place for my acquintances from other countries. Formatted in the form of a grid, each sight has a short descriptions sourced from Wikipedia (CC Licensed). To navigate based on location, it's easy to utilize the navbar.
+# The Most Prominent Sites of Uzbekistan 
+### Purpose and Inspiration:
+Uzbekistan is a little-known yet beautiful country in Central Asia. It went through the invasions of Alexander the Great, Muslim Arabs, Gengis Khan, Russian Empire, and its architecture exhibits incredible variety that evolved over the years of changing culture and traditions. This project showcases the most eye-catching sights of Uzbekistan, and was initially made to offer more convenience for Uzbekistani people to showcase our home place for people from other countries. 
 ### 
+### Technical Description:
+Created utilizing HTML/CSS/JavaScript, baguetteBox.js package, BeauitifulSoup, the website presents an interactive gallery with clickable sights and descriptions which can be sorted by location. 
 
+The list of sights does not include everything that Uzbekistan has to offer, so contributions would be really appreciated. 
 ### Possible areas for contribution:
 ### In the making:
 
